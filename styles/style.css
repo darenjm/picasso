@@ -1,3 +1,267 @@
+/* CSS Reset - Start with a Blank Slate */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+center,
+dl,
+dt,
+dd,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+tr,
+th,
+td,
+article,
+footer,
+header,
+menu,
+nav,
+section,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  vertical-align: baseline;
+  line-height: 1.45;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
 body {
-    background: red;
+  background-color: #e3e3e3;
+}
+
+.header-section {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: space-between;
+  align-items: center;
+  color: #fefefe;
+  border-radius: 0 0 0.15rem 0.15rem;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0;
+}
+
+.inner-wrapper {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 1.25rem;
+  background: #fefefe;
+}
+
+.pic-canvas {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: #333;
+  position: relative;
+}
+
+.pic-ball-1 {
+  position: absolute;
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background: #FE8888;
+  left: 5%;
+  top: 10%;
+}
+
+.pic-ball-2 {
+  position: absolute;
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background: #FE8888;
+  left: 5%;
+  top: 27%;
+}
+
+.pic-ball-3 {
+  position: absolute;
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background: #c9e265;
+  left: 15%;
+  top: 60%;
+}
+.pic-ball-4 {
+  position: absolute;
+  height: 122px;
+  width: 122px;
+  border-radius: 50%;
+  background: #c9e265;
+  left: 15%;
+  top: 7%;
+}
+.pic-ball-4-1 {
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background: #fff;
+  left: 15%;
+  top: 17%;
+}
+
+.pic-ball-5 {
+  position: absolute;
+  height: 122px;
+  width: 122px;
+  border-radius: 50%;
+  background: #FE8888;
+  left: 25%;
+  top: 27%;
+}
+.pic-ball-6 {
+  position: absolute;
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background: #FE8888;
+  left: 45%;
+  top: 7%;
+}
+
+.pic-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.pic-box-33 {
+  padding: 2rem;
+  width: 33%;
+  height: 150px;
+}
+.pic-box-100 {
+  padding: 2rem;
+  width: 100%;
+  height: 250px;
+}
+.pic-box-100-1 {
+  padding: 1rem;
+  width: 100%;
+}
+
+.pic-color-1 {
+  background: rgb(33, 65, 145);
+}
+.pic-color-2 {
+  background: #c9e265;
+}
+.pic-color-3 {
+  background: #333;
+}
+
+.pic-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: #00989d;
+  color: #fff;
+}
+
+.pic-form-title {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.pic-submit,
+.pic-input {
+  width: 300px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.pic-input {
+  color: rgb(162, 160, 162);
+}
+
+.pic-submit {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 1120px) {
+  .section-wrapper {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .row-reverse {
+    display: flex;
+    flex-direction: column;
+  }
+  .pic-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .pic-box-33 {
+    padding: 2rem;
+    width: 100%;
+    height: 75px;
+  }
+  .pic-box-100-1 {
+    padding: 0.5rem;
+    width: 100%;
+  }
+
+  .pic-form-title,
+  .pic-submit,
+  .pic-input {
+    font-size: 1.125em;
+  }
 }
