@@ -223,6 +223,7 @@ body {
 .pic-submit {
   font-weight: 600;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .row-reverse {
