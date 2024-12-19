@@ -223,6 +223,9 @@ body {
   gap: 0.5rem;
   padding: 1rem;
   background: #00989d;
+}
+
+.pic-form label {
   color: #fff;
 }
 
@@ -326,13 +329,13 @@ body {
   }
 
   .pic-triangle-2 {
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-left: 70px solid transparent;
-  border-right: 70px solid transparent;
-  border-bottom: 200px solid #c9e265;
-  left: 50%;
-  bottom: 10.5%;
-}
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 200px solid #c9e265;
+    left: 50%;
+    bottom: 10.5%;
+  }
 }
